@@ -66,7 +66,7 @@ gsap.to("#sub-main>video", {
  var tl1 = gsap.timeline({
   scrollTrigger: {
     trigger: "#page2",
-    start: `top center`,
+    start: `top top`,
     scrub: 1,
     scroller: "#sub-main",
     markers: true,
