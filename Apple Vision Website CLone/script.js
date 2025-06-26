@@ -73,6 +73,6 @@ gsap.to("#sub-main>video", {
     pin: true
   }
  })
- tl1.to("#page2", {
+ tl1.to("#page2>h1", {
   top:`-50%`
  });
