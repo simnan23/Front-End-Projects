@@ -164,5 +164,61 @@ html, body {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: grey;
+    background-color: white;
+}
+
+#page4>img {
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#page4-upper {
+    height: 25%;
+    width: 40%;
+    /* background-color: green; */
+    position: absolute;
+    /* z-index: 9; */
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+}
+#page4-upper>img {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+}
+
+#page4-upper-inner {
+    position: absolute;
+    bottom: 0%;
+    height: 60%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+    color: #ff823d;
+}
+#page4-upper-inner>h3 {
+    font-weight: 500;
+    color: #ff823d;
+}
+#page4>button {
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 30px;
+    /* border: 1px solid #000; */
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 1.4vw;
+    /* border-width: 0.2cap; */
 }
