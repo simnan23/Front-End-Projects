@@ -93,13 +93,13 @@ window.addEventListener("resize", function () {
 
 function files(index) {
   var data = [
-  "images/0000.jpg",
-  "images/0001.jpg",
-  "images/0002.jpg",
-  "images/0003.jpg",
-  "images/0004.jpg",
-  "images/0005.jpg",
-  "images/0006.jpg"
+  "images1/0000.jpg",
+  "images1/0001.jpg",
+  "images1/0002.jpg",
+  "images1/0003.jpg",
+  "images1/0004.jpg",
+  "images1/0005.jpg",
+  "images1/0006.jpg"
 ];
   return data.split("\n")[index];
 }
